@@ -16,7 +16,7 @@ header{
 #jumbotron{
     padding: 100px 0 20px;
 }
-.content-img{
+#jumbotron .content-img{
     width: 200px;
     margin: 0 auto;
 }
@@ -40,33 +40,95 @@ header{
 #jumbotron .content{
     width: 100%;
 }
-.hr-stars{
+#jumbotron .hr-stars{
     max-width: 250px;
     margin: 0 auto;
     color: white;
 }
-.hr-stars .line{
+#jumbotron .hr-stars .line{
     width: 40%;
     position: relative;
     height: 1px;
     background: white;
 }
-
-.content-title{
-    background-color: lightgray;
+/* columns  */
+#columns{
+    padding: 50px 0 20px;
 }
 #columns .content{
-    height: 250px;
+    color: black;
 }
-#about .content{
-    height: 250px;
+#columns .hr-stars{
+    max-width: 250px;
+    margin: 0 auto;
+    color: black;
 }
-#contact-us .content{
-    height: 250px;
+.hr-stars .line{
+    width: 40%;
+    position: relative;
+    height: 1px;
+    background: black   ;
 }
-footer .content{
-    height: 250px;
+#columns .content-img{
+    margin: 0 auto;
 }
-#bottom-bar{
+/* about */
+#about{
+    padding: 20px 0 30px;
+    color: white;
+}
+#about .title{
+    font-size: 20px;
+    color: white;
+}
+#about .hr-stars{
+    max-width: 150px;
+    margin: 0 auto;
+}
+#about .hr-stars .line{
+    width: 40%;
+    position: relative;
+    height: 1px;
+    background: white;
+}
+.container-smaller{
+    width: 80%;
+    margin: 0 auto;
+}
+.padding-10-20{
+    padding: 10px 0 20px;
+}
+
+/* contact-us */
+#contact-us{
+    padding: 20px 0 30px;
+    color: black;
+}
+#contact-us .title{
+    font-size: 20px;
+}
+#contact-us .hr-stars{
+    max-width: 150px;
+    margin: 0 auto;
+}
+#contact-us .hr-stars .line{
+    width: 40%;
+    position: relative;
+    height: 1px;
+    background: black;
+}
+#contact-us input, textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+}
+#green{
+    background-color: #1ABC9C;
+    border: #1ABC9C;
+}
+
+
+#copyright{
     background-color: rgb(15, 15, 91);
 }
