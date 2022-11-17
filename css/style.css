@@ -35,7 +35,7 @@ header{
     height: 350px;
 }
 .hr-stars{
-    width: 60%;
+    max-width: 250px;
     margin: 0 auto;
 }
 .hr-stars .line{
